@@ -37,6 +37,7 @@ const Navbar = () => {
             to: '/contact'
         },  
     ]
+    
 
 
     return(
