@@ -4,12 +4,32 @@ export const data = {
             title: "Consultant",
             subTitle: "miami, FL",
             description: "User experience, visual design"
+        },
+        {
+            title: "Consultant",
+            subTitle: "miami, FL",
+            description: "User experience, visual design"
+        },
+        {
+            title: "Consultant",
+            subTitle: "miami, FL",
+            description: "User experience, visual design"
         }
     ],
     education : [
         {
             title: "a",
-            subtitle: "b",
+            subTitle: "b",
+            description: "c"
+        },
+        {
+            title: "a",
+            subTitle: "b",
+            description: "c"
+        },
+        {
+            title: "a",
+            subTitle: "b",
             description: "c"
         }
     ]
