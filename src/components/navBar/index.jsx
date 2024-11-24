@@ -32,10 +32,10 @@ const Navbar = () => {
             label: 'PORTFOLIO',
             to: '/portfolio'
         },
-        {
-            label: 'CONTACT',
-            to: '/contact'
-        },  
+        // {
+        //     label: 'CONTACT',
+        //     to: '/contact'
+        // },  
     ]
     
 
