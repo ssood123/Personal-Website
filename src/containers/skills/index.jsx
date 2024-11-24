@@ -33,12 +33,12 @@ const Skills = () => {
                                 <div>
                                     {
                                         item.data.map((skillsItem, j) => (
-                                            <AnimateKeyframes
-                                                play
-                                                duration={1}
-                                                keyframes={["opacity : 1", "opacity : 0"]}
-                                                iterationCount="1"
-                                            >
+                                            // <AnimateKeyframes
+                                            //     play
+                                            //     duration={1}
+                                            //     keyframes={["opacity : 1", "opacity : 0"]}
+                                            //     iterationCount="1"
+                                            // >
                                                 <div className="progressbar-wrapper" key={j}>
                                                     <p>{skillsItem.skillName}</p>
                                                     <Line
@@ -50,7 +50,7 @@ const Skills = () => {
                                                     />
                                                 </div>
 
-                                            </AnimateKeyframes>
+                                            // </AnimateKeyframes>
                                         ))
                                     }
                                 </div>

@@ -14,7 +14,7 @@ const Navbar = () => {
     const data = [
         {
             label: 'HOME',
-            to: '/'
+            to: '/personal-website'
         },
         {
             label: 'ABOUT ME',

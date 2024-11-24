@@ -20,13 +20,13 @@ function App() {
   return (
     <div className="App">
       {
-        location.pathname === "/" &&
+        (location.pathname.includes("/personal-website") || window.location.pathname.includes("/personal-website")) &&
         <Particles id="particles" options={particles} init={handleInit} />
       }
       <Navbar />
       <div className="App__main-page-content">
         <Routes>
-          <Route index path="/" element={<Home />} />
+          <Route path="/personal-website" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/skills" element={<Skills />} />
