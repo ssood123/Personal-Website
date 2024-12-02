@@ -12,12 +12,12 @@ const Home = () => {
         <section id="home" className="home">
             <div className="home__text-wrapper">
                 <h1>
-                    Hello, I'm Saahil
+                    Hello, I'm Saahil Sood
                     <br />
-                    Front end developer
+                    Front-End Developer
                 </h1>
             </div>
-            <Animate
+            {/* <Animate
                 play
                 duration={1}
                 delay={1}
@@ -31,7 +31,7 @@ const Home = () => {
                 <div className="home__contact-me">
                     <button  onClick={handleNavigateToContactMePage}>Hire me</button>
                 </div>
-            </Animate>
+            </Animate> */}
         </section>
     ) 
 }

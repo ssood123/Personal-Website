@@ -9,27 +9,27 @@ import { FaDev, FaDatabase } from "react-icons/fa";
 const personalDetails = [
     {
         label: "Name",
-        value: "John Doe",
+        value: process.env.REACT_APP_NAME
     },
     {
         label: "Age",
-        value: "25"
+        value: process.env.REACT_APP_AGE
     },
     {
         label: "Address",
-        value: "USA "
+        value: process.env.REACT_APP_ADDRESS
     },
     {
         label: "Email",
-        value: "demo@example.com"
+        value: process.env.REACT_APP_EMAIL
     },
     {
         label: "Contact No",
-        value: "+111"
+        value: process.env.REACT_APP_PHONE_NUMBER
     }
 ]
 
-const jobSummary = "Seasoned and intendepent Front End Developer with 2 years of experience"
+const jobSummary = "I'm a seasoned and independent front-end developer with about 2 years of experience. In the past, I've worked at HPE (Hewlett Packard Enterprise)."
 
 const About = () => {
     return (
@@ -51,7 +51,7 @@ const About = () => {
                             transform: "translatex(0px)"
                         }}
                     >
-                        <h3>Front End Developer</h3>
+                        <h3>Front-End Developer</h3>
                         <p>{jobSummary}</p>
                     </Animate>
                     <Animate
