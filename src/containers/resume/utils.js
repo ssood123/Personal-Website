@@ -1,36 +1,30 @@
 export const data = {
     experience: [
         {
-            title: "Consultant",
-            subTitle: "miami, FL",
-            description: "User experience, visual design"
+            title: "Hewlett Packard Enterprise",
+            subTitle: "Andover, MA",
+            description: "Cloud Software Engineer",
+            date: "Feb 2023 - Oct 2024"
         },
         {
-            title: "Consultant",
-            subTitle: "miami, FL",
-            description: "User experience, visual design"
+            title: "Hewlett Packard Enterprise",
+            subTitle: "Andover, MA",
+            description: "Cloud Software Engineer Intern",
+            date: "May 2022 - Aug 2022"
         },
-        {
-            title: "Consultant",
-            subTitle: "miami, FL",
-            description: "User experience, visual design"
-        }
     ],
     education : [
         {
-            title: "a",
-            subTitle: "b",
-            description: "c"
+            title: "Columbia University",
+            subTitle: "New York, NY",
+            description: "Master of Science in Computer Science, GPA 3.7/4.0",
+            date: "Sep 2021 - Dec 2022"
         },
         {
-            title: "a",
-            subTitle: "b",
-            description: "c"
+            title: "Boston University",
+            subTitle: "Boston, MA",
+            description: "Bachelor of Science in Computer Engineering, GPA 3.7/4.0",
+            date: "Sep 2017 - May 2021"
         },
-        {
-            title: "a",
-            subTitle: "b",
-            description: "c"
-        }
     ]
 }

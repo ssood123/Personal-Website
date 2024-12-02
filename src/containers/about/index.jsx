@@ -24,7 +24,7 @@ const personalDetails = [
         value: process.env.REACT_APP_EMAIL
     },
     {
-        label: "Contact No",
+        label: "Contact Number",
         value: process.env.REACT_APP_PHONE_NUMBER
     }
 ]
@@ -43,7 +43,6 @@ const About = () => {
                     <Animate
                         play
                         duration={1}
-                        delay={1}
                         start={{
                             transform: "translateX(-900px)"
                         }}
@@ -57,7 +56,6 @@ const About = () => {
                     <Animate
                         play
                         duration={1}
-                        delay={1}
                         start={{
                             transform: "translateX(-900px)"
                         }}

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BsInfoCircleFill } from "react-icons/bs";
 import PageHeaderContent from "../../components/pageHeaderContent";
 import image1 from "../../images/image1.jpg";
+import image2 from "../../images/image2.jpg";
 import "./styles.scss";
 
 const Portfolio = () => {
@@ -11,15 +12,15 @@ const Portfolio = () => {
     const portfolioData = [
         {
             id: 2,
-            name: "Python App",
+            name: "Project Emphy",
             image: image1,
-            link: ''
+            link: 'https://github.com/ssood123/Project-Emphy'
         },
         {
             id: 3,
-            name: "Java App",
-            image: image1,
-            link: ''
+            name: "Tilt-Motion Snake",
+            image: image2,
+            link: 'https://github.com/ssood123/Tilt-Motion-Snake'
         }
     ];
 
@@ -84,7 +85,7 @@ const Portfolio = () => {
                                         index === hoveredValue && (
                                             <div>
                                                 <p>{item.name}</p>
-                                                <button>Visit</button>
+                                                <a target="_blank" href={item.link}><button>Visit</button></a> 
                                             </div>
                                         )
                                     }

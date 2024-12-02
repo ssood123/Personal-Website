@@ -1,54 +1,109 @@
 export const skillsData = [
     {
-        label: "FRONT END",
+        label: "LANGUAGES",
         data: [
             {
-                skillName: "HTML",
+                skillName: "HTML5",
                 percentage: "90",
             },
             {
-                skillName: "CSS",
-                percentage: "70",
+                skillName: "CSS3",
+                percentage: "60",
             },
             {
-                skillName: "JAVASCRIPT",
+                skillName: "JAVASCRIPT (ES6)",
                 percentage: "80"
-            }
-    
-        ]
-    },
-    {
-        label: "BACK END",
-        data : [
+            },
             {
-                skillName: "JAVA",
+                skillName: "PYTHON 3",
+                percentage: "70"
+            },
+            {
+                skillName: "C#",
+                percentage: "60"
+            },
+            {
+                skillName: "C",
                 percentage: "50"
             },
             {
-                skillName: "PYTHON",
+                skillName: "C++",
+                percentage: "60"
+            },
+            {
+                skillName: "JAVA",
                 percentage: "70"
             },
             {
-                skillName: "RUBY",
-                percentage: "35"
+                skillName: "MATLAB",
+                percentage: "50"
             }
         ]
     },
     {
-        label: "DATABASES",
+        label: "FRAMEWORKS, LIBRARIES, DATABASES, AND TOOLS",
         data : [
             {
-                skillName: "SQL",
-                percentage: "70"
+                skillName: "REACT/REDUX",
+                percentage: "80"
+            },
+            {
+                skillName: "CYPRESS",
+                percentage: "60"
+            },
+            {
+                skillName: "NODEJS",
+                percentage: "80"
+            },
+            {
+                skillName: "MYSQL",
+                percentage: "80"
             },
             {
                 skillName: "MONGODB",
-                percentage: "65"
+                percentage: "60"
             },
             {
-                skillName: "RUBY",
-                percentage: "35"
-            }
+                skillName: ".NET",
+                percentage: "50"
+            },
+            {
+                skillName: "DOCKER",
+                percentage: "70"
+            },
+            {
+                skillName: "KUBERNETES",
+                percentage: "70"
+            },
+            {
+                skillName: "JENKINS",
+                percentage: "60"
+            },
+            {
+                skillName: "POSTGRESQL",
+                percentage: "70"
+            },
+            {
+                skillName: "SPRING BOOT",
+                percentage: "50"
+            },
+            {
+                skillName: "JIRA",
+                percentage: "80"
+            },
+        ]
+    },
+    {
+        label: "CLOUD PLATFORMS",
+        data : [
+            {
+                skillName: "AWS",
+                percentage: "80"
+            },
+            {
+                skillName: "MICROSOFT AZURE",
+                percentage: "70"
+            },
         ]
     }
 ]

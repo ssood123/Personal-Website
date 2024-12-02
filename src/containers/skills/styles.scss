@@ -70,6 +70,10 @@ h3 {
     .skills{
         &__content-wrapper{
             width: 100%;
+
+            &__inner-content__category-text{
+                line-height: 2.5rem
+            }
         }
     }
     
